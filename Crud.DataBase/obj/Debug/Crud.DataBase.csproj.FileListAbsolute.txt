@@ -1,0 +1,14 @@
+C:\Users\LIGETI\source\repos\WebApplication1\Crud.DataBase\bin\Debug\Crud.DataBase.dll.config
+C:\Users\LIGETI\source\repos\WebApplication1\Crud.DataBase\bin\Debug\Crud.DataBase.dll
+C:\Users\LIGETI\source\repos\WebApplication1\Crud.DataBase\bin\Debug\Crud.DataBase.pdb
+C:\Users\LIGETI\source\repos\WebApplication1\Crud.DataBase\bin\Debug\Crud.Core.dll
+C:\Users\LIGETI\source\repos\WebApplication1\Crud.DataBase\bin\Debug\EntityFramework.dll
+C:\Users\LIGETI\source\repos\WebApplication1\Crud.DataBase\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LIGETI\source\repos\WebApplication1\Crud.DataBase\bin\Debug\Crud.Core.pdb
+C:\Users\LIGETI\source\repos\WebApplication1\Crud.DataBase\bin\Debug\EntityFramework.xml
+C:\Users\LIGETI\source\repos\WebApplication1\Crud.DataBase\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LIGETI\source\repos\WebApplication1\Crud.DataBase\obj\Debug\Crud.DataBase.csprojAssemblyReference.cache
+C:\Users\LIGETI\source\repos\WebApplication1\Crud.DataBase\obj\Debug\Crud.DataBase.csproj.CoreCompileInputs.cache
+C:\Users\LIGETI\source\repos\WebApplication1\Crud.DataBase\obj\Debug\Crud.DataBase.csproj.CopyComplete
+C:\Users\LIGETI\source\repos\WebApplication1\Crud.DataBase\obj\Debug\Crud.DataBase.dll
+C:\Users\LIGETI\source\repos\WebApplication1\Crud.DataBase\obj\Debug\Crud.DataBase.pdb
