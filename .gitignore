@@ -26,3 +26,5 @@ Crud.Core/bin/Debug/Crud.Core.dll
 Crud.Core/bin/Debug/Crud.Core.pdb
 
 .vs/
+
+Crud.Infrastructure/obj/
