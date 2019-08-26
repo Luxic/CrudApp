@@ -12,6 +12,12 @@ namespace WebApplication1.Controllers
 	{
 
 
+
+
+
+
+
+
 		ICrudService<T> service;
 
 		public Cruder()
