@@ -4,3 +4,9 @@ C:\Users\LIGETI\source\repos\WebApplication1\Crud.Core\obj\Debug\Crud.Core.cspro
 C:\Users\LIGETI\source\repos\WebApplication1\Crud.Core\obj\Debug\Crud.Core.csproj.CoreCompileInputs.cache
 C:\Users\LIGETI\source\repos\WebApplication1\Crud.Core\obj\Debug\Crud.Core.dll
 C:\Users\LIGETI\source\repos\WebApplication1\Crud.Core\obj\Debug\Crud.Core.pdb
+C:\Users\hrvoje.marjanovic\Desktop\MyProjects\CrudApp\Crud.Core\bin\Debug\Crud.Core.dll
+C:\Users\hrvoje.marjanovic\Desktop\MyProjects\CrudApp\Crud.Core\bin\Debug\Crud.Core.pdb
+C:\Users\hrvoje.marjanovic\Desktop\MyProjects\CrudApp\Crud.Core\obj\Debug\Crud.Core.csprojAssemblyReference.cache
+C:\Users\hrvoje.marjanovic\Desktop\MyProjects\CrudApp\Crud.Core\obj\Debug\Crud.Core.csproj.CoreCompileInputs.cache
+C:\Users\hrvoje.marjanovic\Desktop\MyProjects\CrudApp\Crud.Core\obj\Debug\Crud.Core.dll
+C:\Users\hrvoje.marjanovic\Desktop\MyProjects\CrudApp\Crud.Core\obj\Debug\Crud.Core.pdb

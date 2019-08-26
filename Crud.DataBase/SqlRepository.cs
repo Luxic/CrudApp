@@ -19,15 +19,17 @@ namespace Crud.DataBase
 
 		public T Get(int id)
 		{
-			var sdf = T;
+			var sdf = new object();
 			 
-			return new ;
+			return (T)sdf;
 		}
 
 		public T Add(T o)
 		{
-			 
-			return entity;
+
+			var sdf = new object();
+
+			return (T)sdf;
 		}
 	}
 }
