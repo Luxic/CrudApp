@@ -20,3 +20,7 @@ WebApplication1/obj/
 Crud.Infrastructure/bin/Debug/
 
 Crud.Infrastructure/obj/Debug/
+
+Crud.Core/bin/Debug/Crud.Core.dll
+
+Crud.Core/bin/Debug/Crud.Core.pdb
