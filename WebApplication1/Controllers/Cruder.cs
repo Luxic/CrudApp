@@ -11,6 +11,7 @@ namespace WebApplication1.Controllers
 	public abstract class Cruder<T> : Controller where T : class
 	{
 
+
 		ICrudService<T> service;
 
 		public Cruder()
