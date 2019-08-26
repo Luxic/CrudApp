@@ -12,7 +12,7 @@ namespace WebApplication1.Areas.HelpPage
                 return "HelpPage";
             }
         }
-
+		 
         public override void RegisterArea(AreaRegistrationContext context)
         {
             context.MapRoute(
