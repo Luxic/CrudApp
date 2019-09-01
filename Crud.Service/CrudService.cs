@@ -22,6 +22,11 @@ namespace Crud.Service
 			return repo.Get(id);
 		}
 
+		public IEnumerable<T> GetAll()
+		{
+			return repo.GetAll();
+		}
+
 		public virtual void Create(T item)
 		{
 			var newItem = repo.Add(item);

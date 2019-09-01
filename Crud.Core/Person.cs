@@ -8,7 +8,7 @@ namespace Crud.Core
 {
 	public class Person
 	{
-		public int ID { get; set; }
+		public int id { get; set; }
 		public string Name { get; set; }
 		public int Age { get; set; }
 	}

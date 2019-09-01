@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Crud.DataBase
 {
 	public class SqlRepository<T> : IRepository<T>
-	{
+	{   
 
 		PersonSqlDbContext dbContext;
 
@@ -30,6 +30,11 @@ namespace Crud.DataBase
 			var sdf = new object();
 
 			return (T)sdf;
+		}
+
+		public IEnumerable<T> GetAll()
+		{
+			return null;
 		}
 	}
 }

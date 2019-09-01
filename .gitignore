@@ -28,3 +28,7 @@ Crud.Core/bin/Debug/Crud.Core.pdb
 .vs/
 
 Crud.Infrastructure/obj/
+
+CruderWebApi/bin/
+
+CruderWebApi/obj/

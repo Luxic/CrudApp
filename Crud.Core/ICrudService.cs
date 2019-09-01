@@ -10,5 +10,6 @@ namespace Crud.Core
     {
 		T Get(int ID);
 		void Create(T o);
+		IEnumerable<T> GetAll();
     }
 }
