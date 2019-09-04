@@ -1,4 +1,4 @@
-﻿using Crud.Core;
+using Crud.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,5 +12,8 @@ namespace CruderWebApi.Controllers
 	[EnableCors(origins: "*", headers: "*", methods: "PUT, POST, GET, DELETE, OPTIONS")]
 	public class PersonController : CrudController<Person>
 	{ 
+
+		
+		
 	}
 }
