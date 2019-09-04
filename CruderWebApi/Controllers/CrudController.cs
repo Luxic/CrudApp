@@ -21,6 +21,11 @@ namespace CruderWebApi.Controllers
 
 			return p;
 		}
- 
+
+		[HttpPost]
+		public  void Post([FromBody]T p)
+		{
+			service.Create(p);
+		}
 	}
 }

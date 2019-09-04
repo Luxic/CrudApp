@@ -32,3 +32,5 @@ Crud.Infrastructure/obj/
 CruderWebApi/bin/
 
 CruderWebApi/obj/
+
+packages/
