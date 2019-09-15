@@ -36,5 +36,10 @@ namespace Crud.DataBase
 		{
 			return null;
 		}
+
+		public void Update(T o)
+		{
+
+		}
 	}
 }

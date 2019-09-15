@@ -13,10 +13,12 @@ namespace Crud.Infrastructure
 	public class Repository<T> : IRepository<T> where T : class
 	{
 		PersonDbContext dbContext;
+		DbSet<T> dbSet;
 
 		public Repository()
 		{
 			dbContext = new PersonDbContext("DataAccessEntities");
+			this.dbSet = dbContext.Set<T>();
 		}
 
 		public T Get(int id)
@@ -39,5 +41,11 @@ namespace Crud.Infrastructure
 			return entity;
 		}
 
+		public void Update(T o)
+		{
+			dbContext.Set<T>().Attach(o);
+			dbContext.Entry(o).State = EntityState.Modified;
+			dbContext.SaveChanges();
+		}
 	}
 }

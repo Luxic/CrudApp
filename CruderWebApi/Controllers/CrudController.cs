@@ -27,5 +27,11 @@ namespace CruderWebApi.Controllers
 		{
 			service.Create(p);
 		}
+
+		[HttpPut]
+		public void update([FromBody]T p)
+		{
+			service.Update(p);
+		}
 	}
 }

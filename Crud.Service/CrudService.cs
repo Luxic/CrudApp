@@ -31,5 +31,10 @@ namespace Crud.Service
 		{
 			var newItem = repo.Add(item);
 		}
+
+		public virtual void Update(T item)
+		{
+			repo.Update(item);
+		}
 	}
 }
