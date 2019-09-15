@@ -27,8 +27,9 @@ namespace Crud.Infrastructure
 
 		public T Add(T o)
 		{
-			var entity = dbContext.Set<T>().Create();
-			dbContext.Set<T>().Add(entity);
+			var entity = dbContext.Set<T>().Create(); 
+			dbContext.Set<T>().Add(o);
+			dbContext.SaveChanges();
 			return entity;
 		}
 
