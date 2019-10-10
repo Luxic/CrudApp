@@ -1,26 +1,32 @@
 ﻿using Crud.Core;
+using Crud.DataBase.SqlDB;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Data;
 namespace Crud.DataBase
 {
 	public class SqlRepository<T> : IRepository<T>
 	{   
 
-		PersonSqlDbContext dbContext;
+		DBManager dbContext;
 
-		public SqlRepository()
+		public SqlRepository(string con)
 		{
-			dbContext = new PersonSqlDbContext();
+			dbContext = new DBManager(con);
 		}
 
 		public T Get(int id)
 		{
 			var sdf = new object();
-			 
+
+			var parameters = new List<IDbDataParameter>();
+			parameters.Add(dbContext.CreateParameter("@ID",  1, DbType.String));
+
+			dbContext.GetDataReader("SELECT * FROM Person Where ID = @ID", System.Data.CommandType.Text, parameters.ToArray());
+
 			return (T)sdf;
 		}
 

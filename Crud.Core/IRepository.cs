@@ -10,9 +10,7 @@ namespace Crud.Core
 	{
 		T Get(int ID);
 		T Add(T o);
-
 		void Update(T o);
-
 		IEnumerable<T> GetAll();
 	}
 }

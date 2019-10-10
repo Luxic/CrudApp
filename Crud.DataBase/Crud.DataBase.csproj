@@ -39,6 +39,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
@@ -56,9 +57,13 @@
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
     <Compile Include="PersonDbContext.cs" />
-    <Compile Include="PersonSqlDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository.cs" />
+    <Compile Include="SqlDB\DataBaseHandlerFactory.cs" />
+    <Compile Include="SqlDB\DataParameterManager.cs" />
+    <Compile Include="SqlDB\DBManager.cs" />
+    <Compile Include="SqlDB\IDatabaseHandler.cs" />
+    <Compile Include="SqlDB\SqlDataAccess.cs" />
     <Compile Include="SqlRepository.cs" />
   </ItemGroup>
   <ItemGroup>

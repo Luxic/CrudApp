@@ -1,4 +1,5 @@
 ﻿using Crud.Core;
+using Crud.DataBase;
 using Crud.Infrastructure;
 using System;
 using System.Collections.Generic;
@@ -12,9 +13,9 @@ namespace Crud.Service
     {
 		IRepository<T> repo;
 
-		public CrudService()
+		public CrudService(string connectionString)
 		{
-			repo = new Repository<T>();
+			repo = new SqlRepository<T>(connectionString);
 		}
 
 		public T Get(int id)

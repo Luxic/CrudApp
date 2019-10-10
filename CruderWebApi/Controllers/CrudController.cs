@@ -1,6 +1,7 @@
 ﻿using Crud.Core;
 using Crud.Service;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Web.Http;
 
 namespace CruderWebApi.Controllers
@@ -11,13 +12,22 @@ namespace CruderWebApi.Controllers
 
 		public CrudController()
 		{
-			service = new CrudService<T>();
+			string connString = ConfigurationManager.ConnectionStrings["ConnectionString"].ToString();
+			service = new CrudService<T>(connString);
 		}
 
 		[HttpGet]
 		public virtual IEnumerable<T> Index()
 		{
 			var p = service.GetAll();
+
+			return p;
+		}
+
+		[HttpGet]
+		public virtual T Get(int ID)
+		{
+			var p = service.Get(ID);
 
 			return p;
 		}
