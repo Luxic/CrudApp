@@ -6,6 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data;
+using System.Data.Common;
+
 namespace Crud.DataBase
 {
 	public class SqlRepository<T> : IRepository<T>
@@ -20,14 +22,14 @@ namespace Crud.DataBase
 
 		public T Get(int id)
 		{
-			var sdf = new object();
-
 			var parameters = new List<IDbDataParameter>();
 			parameters.Add(dbContext.CreateParameter("@ID",  1, DbType.String));
 
-			dbContext.GetDataReader("SELECT * FROM Person Where ID = @ID", System.Data.CommandType.Text, parameters.ToArray());
+			IDataReader dr = dbContext.GetDataReader("SELECT * FROM Person Where ID = @ID", System.Data.CommandType.Text, parameters.ToArray());
 
-			return (T)sdf;
+			var sdf = Mapper.MapObject<T>(dr);
+
+			return sdf;
 		}
 
 		public T Add(T o)

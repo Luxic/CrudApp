@@ -1,16 +1,11 @@
 ﻿using Crud.Core;
 using Crud.DataBase;
-using Crud.Infrastructure;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Crud.Service
 {
-    public class CrudService<T> : ICrudService<T> where T : class
-    {
+	public class CrudService<T> : ICrudService<T> where T : class
+	{
 		IRepository<T> repo;
 
 		public CrudService(string connectionString)
